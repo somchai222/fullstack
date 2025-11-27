@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First js Page</title>
+</head>
+<body>
+   
+    <h2>What can JavaScript Do?</h2>
+    <p>JavaScript can chang HTML attributte values</p>
+
+    <p>in his case Javascript chang the value of the src (source)  attribute of an image</p>
+    <script src="hello.js"></script>
+    
+    <button onclick="document.getElementById('myid').src='img/pic_bulbon.gif'">
+        turn on the light
+    </button>
+    <img id="myid" src="img/pic_bulboff.gif" style="width: 100px">
+    <button onclick="document.getElementById('myid').src='img/pic_bulboff.gif'">
+        turn off the light
+    </button>
+</body>
+</html>
