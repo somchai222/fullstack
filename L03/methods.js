@@ -1,0 +1,20 @@
+const book = {
+    title: '1988',
+    author:'Georg Orwell',
+    isAvailable: true,
+
+
+    checkOut:function(){
+        this.isAvailable= false;
+    },
+    checkIn:function(){
+        this.isAvailable= true;
+    }
+    
+}
+
+console.log(book.isAvailable);
+book.checkOut()
+console.log(book.isAvailable)
+book.checkIn()
+console.log(book.isAvailable)
